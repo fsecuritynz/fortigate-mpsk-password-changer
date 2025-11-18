@@ -1,6 +1,10 @@
-
+UI Screenshot
 ![alt text](https://github.com/fsecuritynz/fortigate-mpsk-password-changer/blob/main/ui-screenshot.png "UI Screenshot")
+
+UI Populated List
 ![alt text](https://github.com/fsecuritynz/fortigate-mpsk-password-changer/blob/main/ui-populated_list "UI Populated List")
+
+UI Updated Password
 ![alt text](https://github.com/fsecuritynz/fortigate-mpsk-password-changer/blob/main/ui-updated_password "UI Updated Password")
 
 **Capability**
