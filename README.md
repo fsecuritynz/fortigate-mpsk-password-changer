@@ -1,3 +1,6 @@
+Inline-style: 
+![alt text](https://github.com/fsecuritynz/fortigate-mpsk-password-changer/blob/main/ui-screenshot.png "UI Screenshot")
+
 **Capability**
 - Leverages FortiGate API to pull MPSK group-list form a group file into the UI
 - Enables simple password changing per group-list object 
