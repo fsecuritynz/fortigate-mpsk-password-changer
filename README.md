@@ -1,4 +1,4 @@
-Inline-style: 
+
 ![alt text](https://github.com/fsecuritynz/fortigate-mpsk-password-changer/blob/main/ui-screenshot.png "UI Screenshot")
 
 **Capability**
