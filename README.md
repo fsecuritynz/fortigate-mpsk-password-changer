@@ -32,6 +32,7 @@
 **Operation**
 - npm init -y
 - npm install express node-fetch
+- npm install node-fetch@2
 - edit the server.js file
   - insert your firewall IP or hostname
   - add your API key
