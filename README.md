@@ -28,7 +28,7 @@
 - homebrew installed
   - https://brew.sh/
 - npm
-  - 'brew install npm'
+  - '''brew install npm'''
 - node
   - 'brew install node'
 - npm libraries
