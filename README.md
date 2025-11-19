@@ -28,21 +28,22 @@
 - homebrew installed
   - https://brew.sh/
 - npm
-  - '''brew install npm'''
+  - `brew install npm`
 - node
-  - 'brew install node'
+  - `brew install node`
 - npm libraries
-  - 'npm init -y'
-  - 'npm install express node-fetch'
-  - 'npm install node-fetch@2'
+  - `npm init -y`
+  - `npm install express node-fetch`
+  - `npm install node-fetch@2`
 
 
 **Operation**
 
-- edit the 'server.js' file
+- edit the `server.js` file
   - insert your firewall IP or hostname
   - add your API key
-  - ensure that the URL path includes the name of the target mpsk-profile (i.e. 'https://192.168.1.1/api/v2/cmdb/wireless-controller/mpsk-profile/guest-hotel-wifi')
+  - ensure that the URL path includes the name of the target mpsk-profile (i.e. `https://192.168.1.1/api/v2/cmdb/wireless-controller/mpsk-profile/guest-hotel-wifi`)
 - replace the logo.png file in public folder with your chosen graphic for branding
-- 'node server.js'
-- open browser to 'http://localhost:3000'
+- run the server
+  - `node server.js`
+- open browser to `http://localhost:3000`
