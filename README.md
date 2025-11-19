@@ -16,23 +16,35 @@
 
 
 **Environment Overview**
-- Tested on FortiOS 7.4.9 [FortiGate 90G + FortiAP 441K]
-- Configuration performed in root vdom
-- API key generated with role of super-admin
+- Test hadware/software
+-   FortiGate 90G running FortiOS 7.4.9
+  -  VDOM mode - `root` vdom
+  -  Self-signed certificate on FortiGate
+  - API key generated with role of super-admin
+-   FortiAP 441K running 7.6.3
+  -   bridge mode (controller mode untested)
+
 - Tested on:
   - macOS Tahoe 26.1
-  - debian 12 bookworm
+  - Debian 12 (bookworm)
   
-- Self-signed certificate on FortiGate 
-
 
 **Requirements**
+***macOS***
 - homebrew installed
   - https://brew.sh/
 - npm
   - `brew install npm`
 - node
   - `brew install node`
+
+***Debian***
+- npm
+  - `apt install npm -y`
+- node
+  - `apt install node -y`
+   
+***macOS + Debian***
 - npm libraries
   - `npm init -y`
   - `npm install express
@@ -47,7 +59,7 @@
   - ensure that the URL path includes the name of the target mpsk-profile (i.e. `https://192.168.1.1/api/v2/cmdb/wireless-controller/mpsk-profile/guest-hotel-wifi`)
 - replace the logo.png file in public folder with your chosen graphic for branding
 
-- 
+
 ***macOS***
 - run the server
   - `node server.js`
