@@ -47,7 +47,7 @@
 ***macOS + Debian***
 - npm libraries
   - `npm init -y`
-  - `npm install express
+  - `npm install express`
   - `npm install node-fetch@2`
   - `npm install body-parser`
 
