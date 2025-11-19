@@ -1,0 +1,13 @@
+[Unit]
+Description=MPSK Web Password Updater
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/mpsk-web
+ExecStart=/usr/bin/node /opt/fortigate-mpsk-password-changer/server.js
+Restart=on-failure
+Environment=NODE_ENV=production
+
+[Install]
+WantedBy=multi-user.target
