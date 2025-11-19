@@ -1,11 +1,10 @@
-
 ![alt text](https://github.com/fsecuritynz/fortigate-mpsk-password-changer/blob/main/ui-screenshot.png)
 
 
-![alt text](https://github.com/fsecuritynz/fortigate-mpsk-password-changer/blob/main/ui-populated_list)
+![alt text](https://github.com/fsecuritynz/fortigate-mpsk-password-changer/blob/main/ui-populated_list.png)
 
 
-![alt text](https://github.com/fsecuritynz/fortigate-mpsk-password-changer/blob/main/ui-updated_password)
+![alt text](https://github.com/fsecuritynz/fortigate-mpsk-password-changer/blob/main/ui-updated_password.png)
 
 **Capability**
 - Leverages FortiGate API to pull MPSK group-list form a group file into the UI
