@@ -12,7 +12,8 @@
 
 **Capability**
 - Leverages FortiGate API to pull MPSK group-list from a group file into the UI
-- Enables simple password changing per group-list object 
+- Enables simple password changing per group-list object
+- Primarily designed for Hotels or Accomodation Providers to assign MPSK key's on a per-room basis and revolve per-booking
 
 
 **Environment Overview**
