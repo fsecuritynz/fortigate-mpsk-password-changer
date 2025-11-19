@@ -19,8 +19,10 @@
 - Tested on FortiOS 7.4.9 [FortiGate 90G + FortiAP 441K]
 - Configuration performed in root vdom
 - API key generated with role of super-admin
-- Tested on macOS Tahoe 26.1
-  - Linux & windows un-tested
+- Tested on:
+  - macOS Tahoe 26.1
+  - debian 12 bookworm
+  
 - Self-signed certificate on FortiGate 
 
 
@@ -33,17 +35,30 @@
   - `brew install node`
 - npm libraries
   - `npm init -y`
-  - `npm install express node-fetch`
+  - `npm install express
   - `npm install node-fetch@2`
+  - `npm install body-parser`
 
 
 **Operation**
-
 - edit the `server.js` file
   - insert your firewall IP or hostname
   - add your API key
   - ensure that the URL path includes the name of the target mpsk-profile (i.e. `https://192.168.1.1/api/v2/cmdb/wireless-controller/mpsk-profile/guest-hotel-wifi`)
 - replace the logo.png file in public folder with your chosen graphic for branding
+
+- 
+***macOS***
 - run the server
   - `node server.js`
 - open browser to `http://localhost:3000`
+
+
+***Debian 12***
+- run the server
+  - install the systemd file
+    - /etc/systemd/system/forti-mpsk-web.service
+    - `systemctl daemon-reload`
+    - `systemctl restart forti-mpsk-web.service`
+    - `systemctl status forti-mpsk-web.service`
+- open browser to `http://server-ip:3000`
