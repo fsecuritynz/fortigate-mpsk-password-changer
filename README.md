@@ -17,12 +17,12 @@
 
 **Environment Overview**
 - Test hadware/software
--   FortiGate 90G running FortiOS 7.4.9
-  -  VDOM mode - `root` vdom
-  -  Self-signed certificate on FortiGate
+- FortiGate 90G running FortiOS 7.4.9
+  - VDOM mode - `root` vdom
+  - Self-signed certificate on FortiGate
   - API key generated with role of super-admin
--   FortiAP 441K running 7.6.3
-  -   bridge mode (controller mode untested)
+- FortiAP 441K running 7.6.3
+  - bridge mode (controller mode untested)
 
 - Tested on:
   - macOS Tahoe 26.1
