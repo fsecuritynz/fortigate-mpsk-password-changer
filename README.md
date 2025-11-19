@@ -55,9 +55,11 @@
 
 
 ***Debian 12***
+- clone the git repo into `/opt`
+  - `/opt/fortigate-mpsk-password-changer`
 - run the server
   - install the systemd file
-    - /etc/systemd/system/forti-mpsk-web.service
+    - `cp /opt/fortigate-mpsk-password-changer/forti-mpsk-web.service /etc/systemd/system/`
     - `systemctl daemon-reload`
     - `systemctl restart forti-mpsk-web.service`
     - `systemctl status forti-mpsk-web.service`
